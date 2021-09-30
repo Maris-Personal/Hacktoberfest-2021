@@ -1,6 +1,5 @@
 import json
 import os
-from itertools import product
 
 import numpy as np
 import scipy.stats

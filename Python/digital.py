@@ -1,10 +1,11 @@
 import sys
-from tkinter import*
+from tkinter import *
 import time
+
 
 def times():
 
-    current_time = time.strftime('%Y/%m/%d\n %I:%M:%S')
+    current_time = time.strftime("%Y/%m/%d\n %I:%M:%S")
     clock.config(text=current_time)
     clock.after(200, times)
 

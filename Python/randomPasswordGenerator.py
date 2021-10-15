@@ -7,21 +7,22 @@ print("----------- !!! RANDOM PASSWORD GENERATOR !!! -----------")
 # input length of password to generate
 inputLength = int(input("Enter the length of password to generate: "))
 
-#define the password characters
+# define the password characters
 lowercase = string.ascii_lowercase
 uppercase = string.ascii_uppercase
 numbers = string.digits
 special_characters = string.punctuation
 
-#combine all the data 
+# combine all the data
 allCharacters = lowercase + uppercase + numbers + special_characters
 
-#use random to randomly pick characters from allCharacters of inputLength
-temp  = random.sample(allCharacters, inputLength)
+# use random to randomly pick characters from allCharacters of inputLength
+temp = random.sample(allCharacters, inputLength)
 
-#create the password using join on temp
-password = ''.join(temp)
+# create the password using join on temp
+password = "".join(temp)
 
-#print the required password
-print(f"Here is a password of length {inputLength}: \n{password}\n----------------------------------------------------------")
-
+# print the required password
+print(
+    f"Here is a password of length {inputLength}: \n{password}\n----------------------------------------------------------"
+)

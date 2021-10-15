@@ -4,13 +4,13 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 import statsmodels.api as sm
 
-''' Make sure you have the below mentioned csv file in same directory as this file '''
+""" Make sure you have the below mentioned csv file in same directory as this file """
 data = pd.read_csv("Iris.csv")
 
 print(data.info())
 
 
-''' You can uncomment any diagram to get the data visualized '''
+""" You can uncomment any diagram to get the data visualized """
 
 ################# HISTOGRAM #################
 # x = data.SepalWidthCm
@@ -49,6 +49,6 @@ print(data.info())
 ################# Quantile Plot #################
 
 sm.qqplot(np.random.normal(20, 5, 50))
-plt.title('Quantile Plot for random data')
+plt.title("Quantile Plot for random data")
 
 plt.show()

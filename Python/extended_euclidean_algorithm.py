@@ -8,8 +8,8 @@ r2 = int(b)
 t1 = 0
 t2 = 1
 
-while(r2 > 0):
-    q = r1//r2
+while r2 > 0:
+    q = r1 // r2
     r = r1 - (q * r2)
     r1 = r2
     r2 = r
@@ -23,6 +23,6 @@ print(r2)
 print(t1)
 print(t2)
 
-print("The required value is t1 = ",t1)
+print("The required value is t1 = ", t1)
 
-print("To calculate the actual multiplicative inverse do : {0} mod {1}".format(t1,n))
+print("To calculate the actual multiplicative inverse do : {0} mod {1}".format(t1, n))

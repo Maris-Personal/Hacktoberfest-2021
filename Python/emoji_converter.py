@@ -1,6 +1,6 @@
 message = input("> ")
 
-words = message.split(' ')
+words = message.split(" ")
 # print(words)
 
 emojis = {
@@ -8,10 +8,10 @@ emojis = {
     ":(": "😞",
     ":/": "😑",
     ";)": "😉",
-    "lol" : "😂",
-   "sick":"😨",
-   "happy": "😀",
-   "mermaid": "🧜‍"
+    "lol": "😂",
+    "sick": "😨",
+    "happy": "😀",
+    "mermaid": "🧜‍",
 }
 output = ""
 

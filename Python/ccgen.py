@@ -3,7 +3,7 @@ import json
 
 bin = 423556
 quantity = 5
-r=requests.get(f"https://ccgennoice.herokuapp.com/gen?bin={bin}&quantity={quantity}")
+r = requests.get(f"https://ccgennoice.herokuapp.com/gen?bin={bin}&quantity={quantity}")
 res = json.loads(r.text)
 if res["success"]:
     msg = ""

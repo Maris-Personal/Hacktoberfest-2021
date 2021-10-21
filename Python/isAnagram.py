@@ -14,5 +14,6 @@ def isAnagram(a, b):
         return False
 
 
+# tests
 print(isAnagram("today", "today"))
 print(isAnagram("yes", "no"))
